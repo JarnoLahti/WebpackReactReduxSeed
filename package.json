@@ -1,0 +1,45 @@
+{
+  "name": "Client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --colors --progress --watch --display-error-details"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.0.7",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.28.0",
+    "source-map-loader": "^0.1.6",
+    "url-loader": "^0.5.8"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.53",
+    "@types/material-ui": "^0.16.51",
+    "@types/react": "^15.0.12",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-redux": "^4.4.36",
+    "@types/react-tap-event-plugin": "0.0.30",
+    "@types/redux-logger": "^2.6.34",
+    "@types/redux-promise-middleware": "^0.0.6",
+    "axios": "^0.15.3",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "font-awesome-webpack": "0.0.5-beta.2",
+    "less": "^2.7.2",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.17.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.1",
+    "redux-promise-middleware": "^4.2.0"
+  }
+}
